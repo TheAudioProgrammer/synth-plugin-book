@@ -2,7 +2,15 @@
 
 This is a list of known mistakes and bugs in the book *Creating Synthesizer Plug-Ins with C++ and JUCE* and/or the accompanying source code.
 
----
+## Chapter 6: The sawtooth oscillator
+
+Chapter 6, page 125 says:
+
+> The while loop adds up sine waves until it reaches the Nyquist limit. The sine values are accumulated in the variable `y`.
+
+The variable is not named `y` but `output`.
+
+## Chapter 11: Modulation
 
 Chapter 11, page 288 says to add a new method `updatePeriod` and then replace the corresponding lines of code in `Synth::render` with call to `updatePeriod(voice);`
 
@@ -34,5 +42,3 @@ for (int v = 0; v < MAX_VOICES; ++v) {
 The synth works OK with the old lines, but using `updatePeriod` here is cleaner.
 
 (Also note that `updatePeriod` does not actually have to be declared `inline` since it's placed inside the class definition in the .h file. Such methods are considered inline by default.)
-
----
