@@ -1,6 +1,6 @@
 # Creating Synthesizer Plug-Ins with C++ and JUCE
 
-This is the source code that accompanies the book [Creating Synthesizer Plug-Ins with C++ and JUCE](https://theaudioprogrammer.com/synth-plugin-book) by Matthijs Hollemans, available for purchase from [The Audio Programmer](https://theaudioprogrammer.com/synth-plugin-book) as PDF and EPUB.
+This is the source code that accompanies the book [Creating Synthesizer Plug-Ins with C++ and JUCE](https://theaudioprogrammer.com/learn/synth-plugin-book) by Matthijs Hollemans, available for purchase from [The Audio Programmer](https://theaudioprogrammer.com/learn/synth-plugin-book) as PDF and EPUB.
 
 ![The book cover](book-cover.jpg)
 
@@ -8,7 +8,7 @@ This 370-page book teaches step-by-step how to design and build a software synth
 
 The plug-in is made using industry standard tools for audio programming: the JUCE framework and the C++ programming language. You'll learn all the fundamentals of writing audio plug-ins in general and synths in particular, in an easy-to-follow guide that is light on math and heavy on being practical.
 
-If you don't have the book yet, you can read free sample chapters at [theaudioprogrammer.com/synth-plugin-book](https://theaudioprogrammer.com/synth-plugin-book) to see if you like it.
+If you don't have the book yet, you can read free sample chapters at [theaudioprogrammer.com/learn/synth-plugin-book](https://theaudioprogrammer.com/learn/synth-plugin-book) to see if you like it.
 
 ## How to use this repo
 
