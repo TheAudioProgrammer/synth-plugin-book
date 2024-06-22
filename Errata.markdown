@@ -2,6 +2,14 @@
 
 This is a list of known mistakes and bugs in the book *Creating Synthesizer Plug-Ins with C++ and JUCE* and/or the accompanying source code.
 
+## Chapter 3: Nyquist limit
+
+Chapter 3, page 66 says:
+
+> The maximum frequency the signal can contain is known as the Nyquist limit. When using a sampling rate of 44.1 kHz, the Nyquist limit is 22.5 kHz, and the sampled signal can faithfully represent any frequencies lower than 22500 Hz — well above the hearing range of humans. But frequencies higher than 22.5 kHz won't work.
+
+The Nyquist limit at a sampling rate of 44.1 kHz is 22.05 kHz or 22050 Hz, not 22500. [Thanks @metajack](https://github.com/TheAudioProgrammer/synth-plugin-book/issues/4)
+
 ## Chapter 6: The sawtooth oscillator
 
 Chapter 6, page 125 says:
